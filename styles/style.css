@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
+header{
+    height: 20vh;
+}
+main{
+    height: 70vh;
+}
+footer{
+    height: 10vh;
+}
+li{
+    list-style-type: none !important;
+}
+.btn-nav{
+    color:rgb(25, 27, 33) !important;
+    text-decoration: none !important;
+}
+.btn-nav:hover{
+    background: rgba(25, 27, 33, 0.03) !important;
+    border-radius: 7.5px !important;
+    color:rgb(25,28,35) !important;
+    text-decoration: none !important;
+}
+.btn-nav:active{
+    color:rgb(25,28,35) !important;
+}
+
+/* -----MainPage----- */
+
+#logo{
+    border-radius: 60px !important;
+}
+
+.c-item{
+    height: 600px !important;
+}
+
+.c-img{
+    height: 100% !important;
+    object-fit: cover !important;
+    filter: brightness(0.6) !important;
+}
+
+/* ---Mobil First--- */
