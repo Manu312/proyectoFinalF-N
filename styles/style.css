@@ -31,7 +31,9 @@ li{
 .btn-nav:active{
     color:rgb(25,28,35) !important;
 }
-
+footer p{
+    margin-top: 10px !important;
+}
 /* -----MainPage----- */
 
 #logo{
@@ -48,4 +50,74 @@ li{
     filter: brightness(0.6) !important;
 }
 
-/* ---Mobil First--- */
+/* -----Responsive Design----- */
+
+/* small divices (landscape phones)*/
+@media(max-width: 576px){
+    header nav{
+        display: flex !important;
+        text-align: center;
+    }
+    #logo{
+        margin-top: 20px;
+    }
+    .c-item{
+        height: 500px !important;
+    }
+    .redicon{
+        width: 20px;
+    }
+    .btn-nav{
+        font-size: 1rem !important;
+        padding: 5px !important;
+    }
+}
+@media(min-width:576px)and(max-width:676px){
+   #logo{
+    margin-top: 20px !important;
+   }
+   .btn-nav{
+    font-size: 1rem !important;    
+    padding: 5px !important;
+    }
+}
+/* medium divices (tablets )*/
+@media(max-width: 768px){
+    #logo{
+        width: 70px !important;
+    }
+    .btn-nav{
+        font-size: 1rem !important;
+        padding: 5px !important;
+    }
+}
+/* Large divices (desktop, 992px and up )*/
+@media(max-width: 992px){
+    #logo{
+        width: 70px !important;
+    }
+}
+/* X-Large divices (large desktop, 1200px and up )*/
+@media(max-width: 1200px){
+
+}
+/* XX-Large divices (large desktop, 1400px and up )*/
+@media(max-width: 1400px){
+    .c-item{
+        height: 500px !important;
+    }
+    .redicon{
+        width: 30px;
+    }
+}
+@media(min-width: 1400px){
+    nav ul{
+        margin-right: 1px !important;
+    }
+   .c-item{
+        height: 500px !important;
+    }
+    .redicon{
+        width: 40px;
+    }
+}
