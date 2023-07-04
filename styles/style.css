@@ -5,6 +5,7 @@
 }
 body{
     height: 100vh;
+    background-color: #f2eeee;
 }
 header{
     height: 20vh;
@@ -63,9 +64,19 @@ footer p{
     background-color:rgba(18, 18, 18, 0.943) !important;
     border: rgba(18, 18, 18, 0.943);
 }
-/* -----Responsive Design----- */
+.form-content{
+    width: 700px;
+    margin-top: 5px;
+}
+/* -----Sede Design----- */
 
-/* small divices (landscape phones)*/
+/* -----Ingreso Design----- */
+.cursos{
+    width: 500px;
+}
+/* -----Apoyo Design----- */
+
+/* -----Responsive Design----- */
 @media(max-width: 576px){
 
     header nav{
@@ -85,6 +96,9 @@ footer p{
         font-size: 1rem !important;
         padding: 5px !important;
     }
+    .cursos{
+        width: 900px;
+    }
 }
 @media(min-width:576px)and(max-width:676px){
    #logo{
@@ -94,8 +108,8 @@ footer p{
     font-size: 1rem !important;    
     padding: 5px !important;
     }
+ 
 }
-/* medium divices (tablets )*/
 @media(max-width: 768px){
     #logo{
         width: 70px !important;
@@ -104,18 +118,33 @@ footer p{
         font-size: 1rem !important;
         padding: 5px !important;
     }
+    .form-content{
+        width: 500px;
+        margin-top: 10px;
+    }
+    .cursos{
+        width: 900px;
+    }
 }
-/* Large divices (desktop, 992px and up )*/
 @media(max-width: 992px){
     #logo{
         width: 70px !important;
     }
+    .btn-nav{
+        margin-bottom: 0px !important;
+    }
+    .cursos{
+        width: 850px;
+    }
 }
-/* X-Large divices (large desktop, 1200px and up )*/
 @media(max-width: 1200px){
-
+    .cursos{
+        width: 900px;
+    }
+    .description{
+        margin-bottom: 1px;
+    }
 }
-/* XX-Large divices (large desktop, 1400px and up )*/
 @media(max-width: 1400px){
     .c-item{
         height: 500px !important;
