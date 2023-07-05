@@ -80,7 +80,9 @@ footer p{
 .btn-ingreso:hover{
     background-color: rgba(192, 192, 192, 0.615);
 }
-
+.btn-ingreso:active{
+    background-color: rgba(192, 192, 192, 0.263);
+}
 /* -----Apoyo Design----- */
 .btn-apoyo:hover{
     color: rgba(177, 179, 178, 0.859);
