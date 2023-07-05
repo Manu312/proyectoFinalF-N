@@ -68,13 +68,25 @@ footer p{
     width: 700px;
     margin-top: 5px;
 }
-/* -----Sede Design----- */
 
 /* -----Ingreso Design----- */
 .cursos{
     width: 500px;
 }
+.btn-ingreso{
+    background-color: rgb(155, 155, 155);
+    border: none;
+}
+.btn-ingreso:hover{
+    background-color: rgba(192, 192, 192, 0.615);
+}
+
 /* -----Apoyo Design----- */
+
+.btn-apoyo:hover{
+    color: rgba(177, 179, 178, 0.859);
+}
+
 
 /* -----Responsive Design----- */
 @media(max-width: 576px){
