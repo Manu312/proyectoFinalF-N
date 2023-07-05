@@ -82,12 +82,9 @@ footer p{
 }
 
 /* -----Apoyo Design----- */
-
 .btn-apoyo:hover{
     color: rgba(177, 179, 178, 0.859);
 }
-
-
 /* -----Responsive Design----- */
 @media(max-width: 576px){
 
