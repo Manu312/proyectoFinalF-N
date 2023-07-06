@@ -22,6 +22,7 @@ li{
 .btn-nav{
     color:rgb(25, 27, 33) !important;
     text-decoration: none !important;
+    font-size: 1.5rem !important;
 }
 .btn-nav:hover{
     background: rgba(25, 27, 33, 0.03) !important;
@@ -42,11 +43,10 @@ footer p{
 }
 
 .c-item{
-    height: 600px !important;
+    height: 500px;
 }
-
 .c-img{
-    height: 100% !important;
+    height: 80% !important;
     object-fit: cover !important;
     filter: brightness(0.6) !important;
 }
@@ -66,7 +66,6 @@ footer p{
 }
 .form-content{
     width: 700px;
-    margin-top: 5px;
 }
 
 /* -----Ingreso Design----- */
@@ -88,15 +87,18 @@ footer p{
     color: rgba(177, 179, 178, 0.859);
 }
 /* -----Responsive Design----- */
+@media (max-width:500px){
+    footer p{
+        font-size: 10px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .redicon{
+        width: 20px !important;
+    }
+}
 @media(max-width: 576px){
-
-    header nav{
-        display: flex !important;
-        text-align: center;
-    }
-    #logo{
-        margin-top: 20px;
-    }
     .c-item{
         height: 500px !important;
     }
@@ -112,21 +114,20 @@ footer p{
     }
 }
 @media(min-width:576px)and(max-width:676px){
-   #logo{
-    margin-top: 20px !important;
-   }
    .btn-nav{
     font-size: 1rem !important;    
     padding: 5px !important;
     }
- 
 }
 @media(max-width: 768px){
+    .c-item{
+        height: 500px !important;
+    }
     #logo{
-        width: 70px !important;
+        width: 60px !important;
     }
     .btn-nav{
-        font-size: 1rem !important;
+        font-size: 1.25rem !important;
         padding: 5px !important;
     }
     .form-content{
@@ -138,8 +139,11 @@ footer p{
     }
 }
 @media(max-width: 992px){
+    .c-item{
+        height: 400px !important;
+    }
     #logo{
-        width: 70px !important;
+        width: 100px !important;
     }
     .btn-nav{
         margin-bottom: 0px !important;
@@ -149,6 +153,9 @@ footer p{
     }
 }
 @media(max-width: 1200px){
+    .c-item{
+        height: 400px !important;
+    }
     .cursos{
         width: 900px;
     }
